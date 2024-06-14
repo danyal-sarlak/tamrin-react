@@ -1,0 +1,56 @@
+.taskitem{
+  
+    list-style: none;
+    justify-content: space-between;
+    border-bottom: 1px solid gainsboro;
+    padding: 5px;
+}
+
+.todoapp{
+    width: 500px;
+    height: 100%;
+    padding: 5px;
+    background-color: white;
+}
+
+.title{
+    color: blueviolet;
+}
+
+.taskinput{
+    width: 450px;
+    height: 30px;
+    border: 1px solid gray;
+}
+
+.buttons{
+    display: flex;
+    gap:1rem;
+}
+.task{
+    display: flex;
+}
+.editinput{
+    display: flex;
+   gap: 10rem;
+}
+.todoitem{
+    display: flex;
+    justify-content: space-between;
+}
+
+.deletbtn{ 
+   height: 40px;
+   display: flex;
+   text-align: center;            
+background-color: rgb(155, 152, 152);
+}
+.editbtn{
+   height: 40px;
+   display: flex;
+   text-align: center; 
+background-color: rgb(155, 152, 152);
+}
+.cancelbtn{
+    background-color: rgb(155, 152, 152);   
+}
